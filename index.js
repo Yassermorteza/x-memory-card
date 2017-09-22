@@ -16,9 +16,7 @@ var correctItems = [];
 var attrObj = {};
 var counter = 0;
 
-function _(id){
-	return document.getElementById(id);
-}
+let _=(id)=>document.getElementById(id);
 
 for(var item of backCard){
 	var src = 'img/monsters-0'+Math.floor(Math.random()*10)+'.png';
